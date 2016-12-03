@@ -1,0 +1,3298 @@
+Welcome to Scheme 48 1.9 (made by babin on 2014-07-11)
+See http://s48.org/ for more information.
+Please report bugs to scheme-48-bugs@s48.org.
+Get more information at http://www.s48.org/.
+Type ,? (comma question-mark) for help.
+> 
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         -
+         #{structure 91 scheme}
+> > > 
+undefine.scm
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         eqv?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         equal?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         =
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         <
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         >
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         <=
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         >=
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         zero?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         positive?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         negative?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         odd?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         even?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         max
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         min
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         +
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         -
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         *
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         not
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         and
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         or
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         list
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         length
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         append
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         reverse
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         memq
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         memv
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         member
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assq
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assv
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assoc
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         map
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         for-each
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         quotient
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         remainder
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         modulo
+         #{structure 91 scheme}
+ini.scm
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         +
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         list
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         and
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         map
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         eqv?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         equal?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         =
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         <
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         >
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         <=
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         >=
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         zero?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         positive?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         negative?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         odd?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         even?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         max
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         min
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         +
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         -
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         *
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         not
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         and
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         or
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         list
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         length
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         append
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         reverse
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         memq
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         memv
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         member
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assq
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assv
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assoc
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         map
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         for-each
+         #{structure 91 scheme}
+
+warning: undefined variables [print-undefined-names]
+         #{package 284 user}
+         b>
+Test1
+assertion-violation: undefined variable [global]
+                     b>
+                     user
+1> 1> Welcome to Scheme 48 1.9 (made by babin on 2014-07-11)
+See http://s48.org/ for more information.
+Please report bugs to scheme-48-bugs@s48.org.
+Get more information at http://www.s48.org/.
+Type ,? (comma question-mark) for help.
+> 
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         -
+         #{structure 91 scheme}
+> > > 
+undefine.scm
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         eqv?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         equal?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         =
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         <
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         >
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         <=
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         >=
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         zero?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         positive?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         negative?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         odd?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         even?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         max
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         min
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         +
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         -
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         *
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         not
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         and
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         or
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         list
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         length
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         append
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         reverse
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         memq
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         memv
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         member
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assq
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assv
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assoc
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         map
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         for-each
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         quotient
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         remainder
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         modulo
+         #{structure 91 scheme}
+ini.scm
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         +
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         list
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         and
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         map
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         eqv?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         equal?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         =
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         <
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         >
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         <=
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         >=
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         zero?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         positive?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         negative?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         odd?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         even?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         max
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         min
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         +
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         -
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         *
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         not
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         and
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         or
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         list
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         length
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         append
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         reverse
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         memq
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         memv
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         member
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assq
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assv
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assoc
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         map
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         for-each
+         #{structure 91 scheme}
+
+warning: undefined variables [print-undefined-names]
+         #{package 284 user}
+         b>
+Test37: PASS
+; no values returned
+> > Welcome to Scheme 48 1.9 (made by babin on 2014-07-11)
+See http://s48.org/ for more information.
+Please report bugs to scheme-48-bugs@s48.org.
+Get more information at http://www.s48.org/.
+Type ,? (comma question-mark) for help.
+> 
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         -
+         #{structure 91 scheme}
+> > > 
+undefine.scm
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         eqv?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         equal?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         =
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         <
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         >
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         <=
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         >=
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         zero?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         positive?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         negative?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         odd?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         even?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         max
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         min
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         +
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         -
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         *
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         not
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         and
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         or
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         list
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         length
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         append
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         reverse
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         memq
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         memv
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         member
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assq
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assv
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assoc
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         map
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         for-each
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         quotient
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         remainder
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         modulo
+         #{structure 91 scheme}
+ini.scm
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         +
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         list
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         and
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         map
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         eqv?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         equal?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         =
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         <
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         >
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         <=
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         >=
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         zero?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         positive?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         negative?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         odd?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         even?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         max
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         min
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         +
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         -
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         *
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         not
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         and
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         or
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         list
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         length
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         append
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         reverse
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         memq
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         memv
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         member
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assq
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assv
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assoc
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         map
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         for-each
+         #{structure 91 scheme}
+
+warning: undefined variables [print-undefined-names]
+         #{package 284 user}
+         b>
+Test49: PASS
+; no values returned
+> > Welcome to Scheme 48 1.9 (made by babin on 2014-07-11)
+See http://s48.org/ for more information.
+Please report bugs to scheme-48-bugs@s48.org.
+Get more information at http://www.s48.org/.
+Type ,? (comma question-mark) for help.
+> 
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         -
+         #{structure 91 scheme}
+> > > 
+undefine.scm
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         eqv?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         equal?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         =
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         <
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         >
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         <=
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         >=
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         zero?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         positive?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         negative?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         odd?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         even?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         max
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         min
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         +
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         -
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         *
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         not
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         and
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         or
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         list
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         length
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         append
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         reverse
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         memq
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         memv
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         member
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assq
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assv
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assoc
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         map
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         for-each
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         quotient
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         remainder
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         modulo
+         #{structure 91 scheme}
+ini.scm
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         +
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         list
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         and
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         map
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         eqv?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         equal?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         =
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         <
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         >
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         <=
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         >=
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         zero?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         positive?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         negative?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         odd?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         even?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         max
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         min
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         +
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         -
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         *
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         not
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         and
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         or
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         list
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         length
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         append
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         reverse
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         memq
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         memv
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         member
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assq
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assv
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assoc
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         map
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         for-each
+         #{structure 91 scheme}
+
+warning: undefined variables [print-undefined-names]
+         #{package 284 user}
+         b>
+Test77: PASS
+; no values returned
+> > Welcome to Scheme 48 1.9 (made by babin on 2014-07-11)
+See http://s48.org/ for more information.
+Please report bugs to scheme-48-bugs@s48.org.
+Get more information at http://www.s48.org/.
+Type ,? (comma question-mark) for help.
+> 
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         -
+         #{structure 91 scheme}
+> > > 
+undefine.scm
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         eqv?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         equal?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         =
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         <
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         >
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         <=
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         >=
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         zero?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         positive?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         negative?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         odd?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         even?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         max
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         min
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         +
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         -
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         *
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         not
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         and
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         or
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         list
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         length
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         append
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         reverse
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         memq
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         memv
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         member
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assq
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assv
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assoc
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         map
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         for-each
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         quotient
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         remainder
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         modulo
+         #{structure 91 scheme}
+ini.scm
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         +
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         list
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         and
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         map
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         eqv?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         equal?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         =
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         <
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         >
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         <=
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         >=
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         zero?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         positive?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         negative?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         odd?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         even?
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         max
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         min
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         +
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         -
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         *
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         not
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         and
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         or
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caaddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         caddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cadddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdadar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdaddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddaar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddadr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cdddar
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         cddddr
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         list
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         length
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         append
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         reverse
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         memq
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         memv
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         member
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assq
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assv
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         assoc
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         map
+         #{structure 91 scheme}
+
+warning: name from opened structure redefined [package-define!]
+         #{package 284 user}
+         for-each
+         #{structure 91 scheme}
+
+warning: undefined variables [print-undefined-names]
+         #{package 284 user}
+         b>
+Test95: PASS
+; no values returned
+> > 
